@@ -1,0 +1,10 @@
+Twitter Dedupe makes use of several open source libraries, thanks to which it is
+easier to focus on the core of the problem. Many thanks to all of them.
+
+Name: Alex Vagin
+GitHub: https://github.com/crhym3
+Source: SimpleAuth and SimpleAuth demo
+
+Name: Ryan McGrath
+GitHub: https://github.com/ryanmcgrath
+Source: Twython

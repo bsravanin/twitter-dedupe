@@ -1,0 +1,9 @@
+Porting NLTK to GAE
+http://www.ling.helsinki.fi/~gwilcock/Tartu-2011/P3-appengine-2.xhtml
+
+Twitter Rate-limiting Stats
+https://twitter.com/account/rate_limit_status.xml
+
+Twitter Authentication on GAE
+http://code.google.com/p/gae-simpleauth/
+https://github.com/crhym3/simpleauth
