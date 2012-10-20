@@ -2,6 +2,7 @@
 #  Name: Sravan Bhamidipati
 #  Date: 19th October, 2012
 #  Purpose: To parse tweets from www.AllMyTweets.net pages.
+#  NOTE: nltk.clean_html() might be a simpler alternative.
 
 import os, re, sys
 

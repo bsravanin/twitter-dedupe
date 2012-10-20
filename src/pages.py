@@ -9,6 +9,7 @@ try:
 	from webapp2 import RequestHandler
 	from twython import Twython
 	import secrets
+	import nltk
 except ImportError:
 	print "This application needs the following GAE modules: jinja2, logging, webapp2"
 	print "This application needs the following libraries: twython"

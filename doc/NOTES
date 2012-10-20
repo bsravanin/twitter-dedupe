@@ -1,5 +1,6 @@
 Porting NLTK to GAE
 http://www.ling.helsinki.fi/~gwilcock/Tartu-2011/P3-appengine-2.xhtml
+http://www.onebloke.com/2011/06/counting-syllables-accurately-in-python-on-google-app-engine/
 
 Twitter Rate-limiting Stats
 https://twitter.com/account/rate_limit_status.xml
@@ -7,3 +8,8 @@ https://twitter.com/account/rate_limit_status.xml
 Twitter Authentication on GAE
 http://code.google.com/p/gae-simpleauth/
 https://github.com/crhym3/simpleauth
+
+Useful NLTK functions
+clean_html(), word_tokenize(), Text()
+PorterStemmer(), LancasterStemmer(), WordNetLemmatizer()
+pos_tag()
