@@ -1,14 +1,23 @@
-# Name: Sravan Bhamidipati
-# Date: 17th October, 2012
-# Purpose: Twitter Dedupe, a Googe App Engine application.
+#! /usr/bin/python
+#  Name: Sravan Bhamidipati
+#  Date: 19th October, 2012
+#  Purpose: Main entry point of Twitter Dedupe, a GAE app.
 
 
-import simpleauth, twython, webapp2
+try:
+	import jinja2, logging
+	from webapp2 import Route, WSGIApplication
+	import sys
+	if 'lib' not in sys.path:
+		sys.path[0:0] = ['lib']
+except ImportError:
+	print "This application needs the following GAE modules: jinja2, logging, webapp2"
+	print "This application needs the following external modules: sys"
 
-class MainPage(webapp2.RequestHandler):
-	def get(self):
-		self.response.headers['Content-Type'] = 'text/plain'
-		self.response.out.write('Hello, webapp World!')
+routes = [
+	Route('/', handler='pages.Home', name='home'),
+	Route('/login', handler='pages.Login', name='login'),
+	Route('/logout', handler='pages.Logout', name='logout')
+]
 
-
-app = webapp2.WSGIApplication([('/', MainPage)], debug=True)
+app = WSGIApplication(routes, debug=True)

@@ -1,5 +1,5 @@
 # Name: Sravan Bhamidipati
-# Date: 17th October, 2012
+# Date: 19th October, 2012
 # Purpose: Config file of Twitter Dedupe application.
 
 
@@ -8,6 +8,12 @@ version: 1b
 runtime: python27
 api_version: 1
 threadsafe: false
+
+libraries:
+- name: jinja2
+  version: "2.6"
+- name: setuptools
+  version: "0.6c11"
 
 handlers:
 - url: /.*
