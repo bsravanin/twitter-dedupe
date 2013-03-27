@@ -1,0 +1,14 @@
+twitter-dedupe
+==============
+
+This was a project taken up during two courses, one on Cloud Computing and
+another on NLP. The idea is to cluster similar tweets in a timeline (or any
+Twitter stream) because that allows a more contextual view and can also decrease
+the noise by eliminating duplicate or nearly identical tweets.
+
+The project wasn't well-maintained and wasn't intended to be long-term. This
+repository was used more as a backup.
+
+The backend works fine, especially the core scripts which can be run by passing
+a file of tweets through command-line. The frontend, supposed to be for a
+website, is a mess.
